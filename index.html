@@ -164,6 +164,21 @@
   .svc.stream { --svc-color: var(--stream); }
   .svc.edit { --svc-color: var(--edit); }
 
+  .testimonial {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 28px 30px; box-shadow: var(--shadow); max-width: 640px;
+  }
+  .testimonial .quote {
+    font-size: 17px; line-height: 1.6; margin: 0; position: relative; padding-left: 22px;
+  }
+  .testimonial .quote::before {
+    content: '"'; position: absolute; left: -2px; top: -6px;
+    font-family: "Unbounded", sans-serif; font-size: 32px; color: var(--accent); line-height: 1;
+  }
+  .testimonial .who { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 2px; }
+  .testimonial .who .name { font-weight: 700; font-size: 14.5px; }
+  .testimonial .who .role { font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--muted); }
+
   /* portfolio */
   /* reel column tall/vertical on the left, podcast + stream stacked on the right */
   .folio {
@@ -509,6 +524,14 @@
             <label for="stream-ru-1"></label><label for="stream-ru-2"></label><label for="stream-ru-3"></label><label for="stream-ru-4"></label>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><div class="kicker">Отзывы</div><h2>Что говорят клиенты</h2></div>
+      <div class="testimonial">
+        <p class="quote">С вами правок почти ноль — разве что мелкие технические. Вы стабильно на шаг опережаете мой запрос: подмечаете детали, которые я даже не просил, но которые ролик заметно улучшают. Опыт виден сразу.</p>
+        <div class="who"><span class="name">Степан Шерстнёв</span><span class="role">клиент — рилсы и шортсы для Instagram, TikTok, VK Видео, YouTube</span></div>
       </div>
     </section>
 
