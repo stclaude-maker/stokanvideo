@@ -211,6 +211,18 @@ h3.block{font-size:22px;margin:36px 0 14px}
 @media (max-width:900px){.grid4,.wide,.reels{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:480px){.grid4{grid-template-columns:1fr}}
 </style>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function(m,e,t,r,i,k,a){
+m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();
+for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+})(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113597127', 'ym');
+ym(113597127, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/113597127" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <header>
@@ -304,6 +316,12 @@ document.querySelectorAll('.work').forEach(function(w){
   stg.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(k+(dx<0?1:-1));x0=null});
   th[0].classList.add('on');
  });
+});
+document.addEventListener('click',function(e){
+ var a=e.target.closest&&e.target.closest('a'); if(!a||typeof ym!=='function') return;
+ var h=a.getAttribute('href')||'';
+ var g=h.indexOf('t.me/')>-1?'telegram':h.indexOf('wa.me/')>-1?'whatsapp':h.indexOf('mailto:')===0?'email':(/vimeo.com|youtube.com|instagram.com|dzen.ru|disk.yandex/.test(h)?'portfolio':null);
+ if(g) ym(113597127,'reachGoal',g);
 });
 </script>
 </body>
