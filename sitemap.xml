@@ -14,4 +14,18 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://stokanvideo.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://stokanvideo.com/en.html"/>
   </url>
+  <url>
+    <loc>https://stokanvideo.com/transmisiones-deportivas-en-vivo.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://stokanvideo.com/transmisiones-deportivas-en-vivo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stokanvideo.com/live-sports-streaming.html"/>
+  </url>
+  <url>
+    <loc>https://stokanvideo.com/live-sports-streaming.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://stokanvideo.com/transmisiones-deportivas-en-vivo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stokanvideo.com/live-sports-streaming.html"/>
+  </url>
 </urlset>
